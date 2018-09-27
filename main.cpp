@@ -397,7 +397,8 @@ extern "C" void* ThreadStats(void*) {
   return nullptr;
 }
 
-static const string mainnet_seeds[] = {"dns0.lytixchain.org", "dns1.lytixchain.org", "dns2.lytixchain.org", "dns3.lytixchain.org", "dns4.lytixchain.org", "dns5.lytixchain.org", ""};
+//static const string mainnet_seeds[] = {"dns0.lytixchain.org", "dns1.lytixchain.org", "dns2.lytixchain.org", "dns3.lytixchain.org", "dns4.lytixchain.org", "dns5.lytixchain.org", ""};
+static const string mainnet_seeds[] = {"lytna01.quravo.com",  "lyteu01.quravo.com", ""};
 static const string testnet_seeds[] = {""};
 static const string *seeds = mainnet_seeds;
 
